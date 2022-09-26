@@ -4,6 +4,10 @@ Retrieves a subset of data on a provided list of pokemon names
 The names retrieved are hard-coded for simplicity and can be updated
 by editing the ```pokemon_list``` variable
 
+By default this server will run on localhost:5000 and the endpoint is reachable at api/pokedex
+
+
+
 Install dependencies
 
 ```$ pip install -r requirements.txt```
