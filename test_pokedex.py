@@ -1,6 +1,6 @@
 import pytest
 
-from .app import app
+from app import app
 
 def test_pokedex():
     response = app.test_client().get('/api/pokedex')
